@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML5 Map of the world | Dasha Salo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="css/main.css">
+  	</head>
+    <body>
+    	<div id="shim"> 
+			<canvas id="canvas2" width="800" height="500"></canvas>
+		</div>
+
+		<canvas id="canvas" width="800" height="500" onmousemove="mouseMoved(event)">
+			<p>Your browser doesn't support canvas - use old version of map at <a href="http://dashasalo.com/2011/04/04/creating-a-world-map-with-raphaeljs-svg/">http://dashasalo.com/2011/04/04/creating-a-world-map-with-raphaeljs-svg/</a>.</p>
+		</canvas>
+
+		<script type="text/javascript" src="js/mapcoords.js"></script>
+		<script src="js/main.js"></script>
+    </body>
+</html>
